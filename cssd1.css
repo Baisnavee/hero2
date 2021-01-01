@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: montserrat;
+}
+header{
+    background-image: url("../day1img/Hero1.png");
+    background-size: cover;
+    background-position: absolute;
+    height: 90vh;
+    width: 105vh;
+    max-width: auto;
+    margin-left: 0px;
+    margin-top:0px;
+    float: right;
+    margin-right: 35px;
+    left: 80%;
+    transform: translate(0px,50px);
+    
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-right: 43px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(160,160,160);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: montserrat;
+    border: 2px solid white;
+    padding: 2px;
+    margin-left:40px;
+   
+}
+.heading{
+    position: absolute;
+    top:40%;
+    left:-50%;
+    transform: translate(-50%,-50%);
+}
+.heading h1{
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 700; 
+    color:#373742;
+}
+.heading h2{
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 700;
+    color:#373742;
+    margin-top:-20px;
+}
+.heading p{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color:#989899;
+    margin-left:10px;
+    margin-top:20px;
+}
+button{
+    position: absolute;
+    top:70%;
+    left: -70%;
+    transform: translate(-50%,-50%);
+    background-color: orangered;
+    color: white;
+    font-size:14px;
+    text-decoration: none;
+    height: 50px;
+    width:200px;
+    border-radius: 5px;
+    border: none;
+}
+img{
+    position: absolute;
+    top:-5%;
+    left:-80%;
+    transform: translate(-50%,-50%);
+    height:30px;
+    width: 80px;
+}
+ul li.active a{
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(15, 15, 15);
+    border-bottom:solid black;
+    border-bottom-width: medium;
+}
+ul li.log a{
+    text-decoration: none;
+    background-color: rgb(243, 234, 225);
+    color: rgb(233, 78, 78);
+    border: none;
+    padding: 2px 4px 2px 4px;
+}
